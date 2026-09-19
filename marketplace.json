@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-09-19T12:45:25.695Z",
+  "updatedAt": "2026-09-19T13:45:48.731Z",
   "plugins": [
     {
       "id": "lang-defaults",
       "name": "官方语言",
-      "version": "1.0.19",
+      "version": "1.0.20",
       "description": "出厂中文/English 语言包——可卸载，卸载后 t(key) 返回 key 原文",
       "author": {
         "name": "官方"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.19/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.20/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.19/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.19/lang-defaults.linkdesk-plugin",
-      "size": 23178,
-      "publishedAt": "2026-09-19T12:45:25.695Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.20/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.20/lang-defaults.linkdesk-plugin",
+      "size": 23221,
+      "publishedAt": "2026-09-19T13:45:48.731Z",
       "versions": [
+        {
+          "version": "1.0.20",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.20/lang-defaults.linkdesk-plugin",
+          "publishedAt": "2026-09-19T13:45:48.731Z",
+          "changelog": "- **重打可复现**：@linkdesk/plugin-sdk 0.1.42 起 zip 目录条目时间戳钉死，同一份源码重打逐字节一致。插件内容零变化（仅 plugin.json 版本号随包更新）。"
+        },
         {
           "version": "1.0.19",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.19/lang-defaults.linkdesk-plugin",
