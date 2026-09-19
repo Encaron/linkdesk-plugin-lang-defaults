@@ -523,5 +523,6 @@
   "当前没有已下载的更新可安装": "There is no downloaded update to install",
   "在资源管理器文件右键菜单中显示「Open with LinkDesk」": "Show \"Open with LinkDesk\" in the Explorer context menu for files",
   "在资源管理器文件夹右键菜单中显示「Open with LinkDesk」": "Show \"Open with LinkDesk\" in the Explorer context menu for folders",
-  "将 LinkDesk 注册为受支持文件类型的编辑器（「打开方式」里可选）": "Register LinkDesk as an editor for supported file types (available under \"Open with\")"
+  "将 LinkDesk 注册为受支持文件类型的编辑器（「打开方式」里可选）": "Register LinkDesk as an editor for supported file types (available under \"Open with\")",
+  "正在安装依赖：{{name}}（{{i}}/{{n}}）": "Installing dependency: {{name}} ({{i}}/{{n}})"
 }
