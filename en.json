@@ -458,6 +458,7 @@
   "卸载超时——{{n}} 分钟无进展": "Uninstall timed out — no progress for {{n}} minutes",
   "上次有 {{count}} 项安装未完成": "{{count}} install(s) from last time weren't finished",
   "更新": "Updates",
+  "系统集成": "System Integration",
   "检查更新": "Check for Updates",
   "发行说明": "Release Notes",
   "关于 LinkDesk": "About LinkDesk",
