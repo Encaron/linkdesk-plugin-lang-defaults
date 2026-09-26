@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-09-19T13:45:48.731Z",
+  "updatedAt": "2026-09-26T12:57:22.803Z",
   "plugins": [
     {
       "id": "lang-defaults",
       "name": "官方语言",
-      "version": "1.0.20",
+      "version": "1.0.21",
       "description": "出厂中文/English 语言包——可卸载，卸载后 t(key) 返回 key 原文",
       "author": {
         "name": "官方"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.20/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.21/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.20/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.20/lang-defaults.linkdesk-plugin",
-      "size": 23221,
-      "publishedAt": "2026-09-19T13:45:48.731Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.21/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.21/lang-defaults.linkdesk-plugin",
+      "size": 23463,
+      "publishedAt": "2026-09-26T12:57:22.803Z",
       "versions": [
+        {
+          "version": "1.0.21",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.21/lang-defaults.linkdesk-plugin",
+          "publishedAt": "2026-09-26T12:57:22.803Z",
+          "changelog": "- **新增英文词条「系统集成」**：壳设置页「通用」组新二级节「系统集成」（OS 集成三开关：文件右键菜单 / 文件夹右键菜单 / 文件类型关联）的英文译文。zh 回退 key 本身即中文原文，无需词条。配套壳侧「设置页通用归类」（docs/04-软件更新，2026-09-26 拍板）——「更新」两键并入「通用」组；原「检查更新」「发行说明」两条节标题词条退役不再被引用（保留不删）。"
+        },
         {
           "version": "1.0.20",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.20/lang-defaults.linkdesk-plugin",
