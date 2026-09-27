@@ -76,6 +76,7 @@
   "自定义——自己指定强调色（图标栏高亮、开关、焦点边框）": "Custom — specify your own accent (icon bar highlight, toggles, focus borders)",
   "强调色来源": "Accent source",
   "菜单栏样式——标题栏 / 汉堡菜单 / 两者都显示": "Menu bar style — title bar / hamburger / both",
+  "悬停提示——鼠标停在图标/按钮上时显示名称与快捷键": "Hover hints — show the name and shortcut when the pointer rests on an icon or button",
   "玻璃模糊——0 关闭；数值 = 主表面真实模糊 px": "Glass blur — 0 off; value = true blur px on main surfaces",
   "玻璃面不透明度——0 全透见背景 / 1 全不透明": "Glass opacity — 0 fully see-through / 1 fully opaque",
   "玻璃叠加色——空 = 主题自带": "Glass tint overlay — empty = theme default",
