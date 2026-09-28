@@ -548,5 +548,11 @@
   "在资源管理器文件右键菜单中显示「Open with LinkDesk」": "Show \"Open with LinkDesk\" in the Explorer context menu for files",
   "在资源管理器文件夹右键菜单中显示「Open with LinkDesk」": "Show \"Open with LinkDesk\" in the Explorer context menu for folders",
   "将 LinkDesk 注册为受支持文件类型的编辑器（「打开方式」里可选）": "Register LinkDesk as an editor for supported file types (available under \"Open with\")",
-  "正在安装依赖：{{name}}（{{i}}/{{n}}）": "Installing dependency: {{name}} ({{i}}/{{n}})"
+  "正在安装依赖：{{name}}（{{i}}/{{n}}）": "Installing dependency: {{name}} ({{i}}/{{n}})",
+  "AI 操作手册": "AI Manual",
+  "章节": "Chapters",
+  "没有可读的手册内容": "No manual content to read",
+  "本构建未随包发货手册，或手册目录不存在。": "This build does not ship the manual, or the manual folder is missing.",
+  "手册目录：": "Manual folder: ",
+  "随本版本发货 · 内容是当前版本 v{{version}}": "Shipped with this version · content matches v{{version}}"
 }
