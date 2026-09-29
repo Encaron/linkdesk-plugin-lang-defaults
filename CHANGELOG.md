@@ -1,5 +1,9 @@
 # 更新日志
 
+## v1.0.31（2026-09-29）
+
+- **新增英文词条 4 条**（AI 友好化 M2 `AI#62` 读数命令族）：命令面板新命令的标题——读取配置项 / 列出全部配置项 / 读取布局 / 列出容器与视图（Read Configuration Setting · List All Configuration Settings · Read Layout · List Containers and Views）。消费方 = 壳 `src/core/commands/shell/readCommands.ts`（「写侧有、读侧无」的补齐：配置读 / 布局尺寸读 / 容器与视图清单读）。zh 回退 key 本身即中文原文。
+
 ## v1.0.30（2026-09-28）
 
 - **新增英文词条 8 条**（AI 友好化 M2 操作面）：命令面板新命令的标题——设置侧栏宽度 / 重置侧栏宽度 / 设置面板尺寸 / 重置面板尺寸 / 设置悬浮面板位置与大小 / 重置悬浮面板位置与大小 / 读取悬浮面板位置与大小 / 重置分屏比例（Set/Reset Sidebar Width · Set/Reset Panel Size · Set/Reset/Read Floating Panel Position and Size · Reset Split Sizes）。消费方 = 壳 `src/core/commands/shell/panelCommands.ts` 与 `tabCommands.ts`（「拖一下」的非鼠标路径）。zh 回退 key 本身即中文原文。
