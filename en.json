@@ -283,6 +283,7 @@
   "读取悬浮面板位置与大小": "Read Floating Panel Position and Size",
   "读取配置项": "Read Configuration Setting",
   "列出全部配置项": "List All Configuration Settings",
+  "写入配置项": "Write Configuration Setting",
   "读取布局": "Read Layout",
   "列出容器与视图": "List Containers and Views",
   "切换底部面板可见性": "Toggle Panel Visibility",
