@@ -1,5 +1,9 @@
 # 更新日志
 
+## v1.0.34（2026-09-29）
+
+- **新增英文词条 3 条**（AI 友好化 M2 生长格 `AI#68` 清配置覆盖）：命令面板新命令标题「清除配置项覆盖」（Clear Configuration Override）——与 `AI#66` 的「写入配置项」成对：那条写字，这条**删掉这条字**（回到无覆盖 ⇒ 落回默认值／主题）；另两条是该命令的两句用户可见说明：`null` 值的报错尾巴（「；想「删掉这条覆盖、回到默认」用 workbench.action.clearConfiguration」，把外部 AI 最容易试错的那条正门直接指出来）与 `resetsToDefault` 键的 `notice`（说清「删覆盖」与设置页那枚「重置为默认项」终点不同）。消费方 = 壳 `src/core/commands/shell/settingsCommands.ts`。zh 回退 key 本身即中文原文。
+
 ## v1.0.33（2026-09-29）
 
 - **新增英文词条 1 条**（AI 友好化 M2 生长格 `AI#66` 通用配置写）：命令面板新命令标题「写入配置项」（Write Configuration Setting）——与 `AI#62` 的读侧三条（读取配置项 / 列出全部配置项 / …）同一个族。消费方 = 壳 `src/core/commands/shell/settingsCommands.ts`（门③ 从此改得动设置：读得回来、也写得进去）。zh 回退 key 本身即中文原文。
