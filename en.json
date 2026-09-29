@@ -283,6 +283,7 @@
   "读取悬浮面板位置与大小": "Read Floating Panel Position and Size",
   "读取配置项": "Read Configuration Setting",
   "列出全部配置项": "List All Configuration Settings",
+  "列出被改过的配置项": "List Overridden Configuration Settings",
   "写入配置项": "Write Configuration Setting",
   "清除配置项覆盖": "Clear Configuration Override",
   "；想「删掉这条覆盖、回到默认」用 workbench.action.clearConfiguration": "; to remove this override and fall back to the default, use workbench.action.clearConfiguration",

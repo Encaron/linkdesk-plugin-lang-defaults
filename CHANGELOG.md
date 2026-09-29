@@ -1,5 +1,9 @@
 # 更新日志
 
+## v1.0.35（2026-09-29）
+
+- **新增英文词条 1 条**（AI 友好化 M2 生长格 `AI#70` 配置覆盖清单）：命令面板新命令标题「列出被改过的配置项」（List Overridden Configuration Settings）——`AI#66` 的「写入配置项」与 `AI#68` 的「清除配置项覆盖」都住在**一个键**上，要问「到底哪些键被改过、值各是什么」以前只能逐键 `getConfiguration`（实测 102 个已声明键 ⇒ 102 次调用）；这条只列**有覆盖**的键与值，空表即「谁都没改过」。消费方 = 壳 `src/core/commands/shell/readCommands.ts`。zh 回退 key 本身即中文原文。
+
 ## v1.0.34（2026-09-29）
 
 - **新增英文词条 3 条**（AI 友好化 M2 生长格 `AI#68` 清配置覆盖）：命令面板新命令标题「清除配置项覆盖」（Clear Configuration Override）——与 `AI#66` 的「写入配置项」成对：那条写字，这条**删掉这条字**（回到无覆盖 ⇒ 落回默认值／主题）；另两条是该命令的两句用户可见说明：`null` 值的报错尾巴（「；想「删掉这条覆盖、回到默认」用 workbench.action.clearConfiguration」，把外部 AI 最容易试错的那条正门直接指出来）与 `resetsToDefault` 键的 `notice`（说清「删覆盖」与设置页那枚「重置为默认项」终点不同）。消费方 = 壳 `src/core/commands/shell/settingsCommands.ts`。zh 回退 key 本身即中文原文。
