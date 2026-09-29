@@ -1,5 +1,9 @@
 # 更新日志
 
+## v1.0.32（2026-09-29）
+
+- **新增英文词条 1 条**（AI 友好化 M2 生长格 `AI#53`）：命令面板新命令标题「设置分屏比例」（Set Split Sizes）——分屏比例**精确设**（把某条分支设成 [70,30]，与只能整树回均分的「重置分屏比例」互补）。消费方 = 壳 `src/core/commands/shell/tabCommands.ts`。zh 回退 key 本身即中文原文。
+
 ## v1.0.31（2026-09-29）
 
 - **新增英文词条 4 条**（AI 友好化 M2 `AI#62` 读数命令族）：命令面板新命令的标题——读取配置项 / 列出全部配置项 / 读取布局 / 列出容器与视图（Read Configuration Setting · List All Configuration Settings · Read Layout · List Containers and Views）。消费方 = 壳 `src/core/commands/shell/readCommands.ts`（「写侧有、读侧无」的补齐：配置读 / 布局尺寸读 / 容器与视图清单读）。zh 回退 key 本身即中文原文。
