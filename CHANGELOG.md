@@ -1,5 +1,12 @@
 # 更新日志
 
+## v1.0.36（2026-09-30）
+
+- **补译设置插件的「自己的声明项」5 条**（用户实机立案：设置插件自己的翻译没做全——英文界面下左栏那组「设置插件 / 打开方式」仍是中文）：`软件设置——主题、语言、插件管理`（Software settings — theme, language, and plugin management）· `修改快捷键…`（Change Keybinding…）· `设置插件`（Settings —— `contributes.configuration.title`，就是设置页左栏那个分组名）· `打开方式`（Opening mode —— `settings.openForm` 的 `group` 二级标题）· 以及 `settings.openForm` 那条键说明。消费方 = 壳设置页三处渲染点（`loadSettingsData` 的 `t(contrib.title)` / `GroupedKeys` 的 `t(bucket.group)` / `SettingRow` 的 `t(prop.description)`，全在 `settings` 插件侧且早已走 t()）＋ 命令面板与插件详情的 `t(name)` / `t(description)`。
+- **为什么补在这本字典里**：设置插件**自己仓里一个 i18n 键都没有**——它的文案一律「`plugin.json` 保留中文原文、渲染时才 `t()`」（E5#109 方案 B），英文则全部住 lang-defaults。声明项此前没有对应译名，英文界面下就回落成中文键原文（`parseMissingKeyHandler` 返回 key）——本版按同一条契约把 5 条补进同一本字典，本插件 `settings` 侧**零代码改动**。
+- ⛔ **两条命令说明不在本次范围**：`settings.editKeybinding` 的 `description` 与 `params[].description` —— 按 2026-09-28 裁决（M1 `AI#8`，见壳仓 CLAUDE.md 硬约束 2 与 `scripts/audit-i18n.mjs` §0 属性名级排除），命令元数据的说明是**声明数据、不是 UI 文字**（消费方 = 契约 → AI，今天零渲染消费方）。**撤销条件同款**：命令说明一旦进 UI，那条排除扫本批补译同笔撤销。
+- ⚠️ **一处仍会显中文（不属于本字典）**：插件市场**列表行**的简介（`marketplace` 插件的 `ExtensionItem.tsx` / `DisabledListView.tsx` 直接渲染 `m.description`，**没走 `t()`**）——那边补的是一行 `t()`，不是词典条目；插件**详情页**已是 `t(description)`，本版补译在详情页即时生效。
+
 ## v1.0.35（2026-09-29）
 
 - **新增英文词条 1 条**（AI 友好化 M2 生长格 `AI#70` 配置覆盖清单）：命令面板新命令标题「列出被改过的配置项」（List Overridden Configuration Settings）——`AI#66` 的「写入配置项」与 `AI#68` 的「清除配置项覆盖」都住在**一个键**上，要问「到底哪些键被改过、值各是什么」以前只能逐键 `getConfiguration`（实测 102 个已声明键 ⇒ 102 次调用）；这条只列**有覆盖**的键与值，空表即「谁都没改过」。消费方 = 壳 `src/core/commands/shell/readCommands.ts`。zh 回退 key 本身即中文原文。

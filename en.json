@@ -642,5 +642,10 @@
   "调试端口状态": "Debug Port Status",
   "操作日志状态": "Operation Log Status",
   "开放范围明细": "Open Scope Details",
-  "管理敏感能力细分": "Manage Fine-Gated Capabilities"
+  "管理敏感能力细分": "Manage Fine-Gated Capabilities",
+  "软件设置——主题、语言、插件管理": "Software settings — theme, language, and plugin management",
+  "修改快捷键…": "Change Keybinding…",
+  "设置插件": "Settings",
+  "打开方式": "Opening mode",
+  "打开设置时的形态——floatingPanel 悬浮面板 / tab 标签页（只管第一次打开；打开之后仍可用面板右上角「在主窗口中打开」/ 标签页右键「在悬浮面板中打开」互相转换）": "How Settings opens the first time — floatingPanel (floating panel) / tab (tab). Only the first open is affected; afterwards you can switch either way with \"Open in Main Window\" at the panel's top-right, or \"Open in Floating Panel\" in the tab's context menu."
 }
