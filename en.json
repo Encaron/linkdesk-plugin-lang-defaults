@@ -287,7 +287,7 @@
   "写入配置项": "Write Configuration Setting",
   "清除配置项覆盖": "Clear Configuration Override",
   "；想「删掉这条覆盖、回到默认」用 workbench.action.clearConfiguration": "; to remove this override and fall back to the default, use workbench.action.clearConfiguration",
-  "该键在设置页还有一枚「重置为默认项」（效果 = 不跟随主题）——本命令删的是用户覆盖（回落到默认值／主题），两者终点不同": "This key also has a \u201cReset to default\u201d action in Settings (effect: do not follow the theme) \u2014 this command removes the user override (falling back to the default value / theme); the two end at different places",
+  "该键在设置页还有一枚「重置为默认项」（效果 = 不跟随主题）——本命令删的是用户覆盖（回落到默认值／主题），两者终点不同": "This key also has a “Reset to default” action in Settings (effect: do not follow the theme) — this command removes the user override (falling back to the default value / theme); the two end at different places",
   "读取布局": "Read Layout",
   "列出容器与视图": "List Containers and Views",
   "切换底部面板可见性": "Toggle Panel Visibility",
@@ -647,5 +647,7 @@
   "修改快捷键…": "Change Keybinding…",
   "设置插件": "Settings",
   "打开方式": "Opening mode",
-  "打开设置时的形态——floatingPanel 悬浮面板 / tab 标签页（只管第一次打开；打开之后仍可用面板右上角「在主窗口中打开」/ 标签页右键「在悬浮面板中打开」互相转换）": "How Settings opens the first time — floatingPanel (floating panel) / tab (tab). Only the first open is affected; afterwards you can switch either way with \"Open in Main Window\" at the panel's top-right, or \"Open in Floating Panel\" in the tab's context menu."
+  "打开设置时的形态——floatingPanel 悬浮面板 / tab 标签页（只管第一次打开；打开之后仍可用面板右上角「在主窗口中打开」/ 标签页右键「在悬浮面板中打开」互相转换）": "How Settings opens the first time — floatingPanel (floating panel) / tab (tab). Only the first open is affected; afterwards you can switch either way with \"Open in Main Window\" at the panel's top-right, or \"Open in Floating Panel\" in the tab's context menu.",
+  "官方语言": "Official Language Pack",
+  "出厂中文/English 语言包——可卸载，卸载后 t(key) 返回 key 原文": "Factory Chinese/English language pack — uninstallable; after removal t(key) returns the key itself"
 }

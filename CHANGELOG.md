@@ -1,5 +1,10 @@
 # 更新日志
 
+## v1.0.37（2026-09-30）
+
+- **自有翻译归位（E6#161「谁的仓谁译文」）**：本仓 2 条可渲染文案的英文译名住进**本仓字典** `en.json`（新增 2 条）——不再依赖 `lang-defaults` 代管：文案在本仓声明、译名却在别的仓的字典里，本仓加一条声明那只仓无从跟上（跨仓追不上）。译名取值：池里现成的照抄（同键同值 ⇒ 按 E6#161「同值覆盖不出声」规则运行时零变化），池里没有的 2 条新写。
+- **判据随 SDK 下发**：`@linkdesk/plugin-sdk` ^0.1.19 → **^0.1.61**——`npm run verify` 第 ⑧ 段「自有字典覆盖度」（manifest 渲染串缺口 🔴 / 源码 `t()` 缺口 ⚠️）由 `@linkdesk/plugin-sdk/own-dict-coverage` 判定（判据本体在 SDK，⛔ 不在本仓复制）。
+
 ## v1.0.36（2026-09-30）
 
 - **补译设置插件的「自己的声明项」5 条**（用户实机立案：设置插件自己的翻译没做全——英文界面下左栏那组「设置插件 / 打开方式」仍是中文）：`软件设置——主题、语言、插件管理`（Software settings — theme, language, and plugin management）· `修改快捷键…`（Change Keybinding…）· `设置插件`（Settings —— `contributes.configuration.title`，就是设置页左栏那个分组名）· `打开方式`（Opening mode —— `settings.openForm` 的 `group` 二级标题）· 以及 `settings.openForm` 那条键说明。消费方 = 壳设置页三处渲染点（`loadSettingsData` 的 `t(contrib.title)` / `GroupedKeys` 的 `t(bucket.group)` / `SettingRow` 的 `t(prop.description)`，全在 `settings` 插件侧且早已走 t()）＋ 命令面板与插件详情的 `t(name)` / `t(description)`。
