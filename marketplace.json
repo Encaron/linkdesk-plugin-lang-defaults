@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-09-30T03:47:36.869Z",
+  "updatedAt": "2026-09-30T11:40:31.867Z",
   "plugins": [
     {
       "id": "lang-defaults",
       "name": "官方语言",
-      "version": "1.0.37",
+      "version": "1.0.38",
       "description": "出厂中文/English 语言包——可卸载，卸载后 t(key) 返回 key 原文",
       "author": {
         "name": "官方"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.37/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.38/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.37/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.37/lang-defaults.linkdesk-plugin",
-      "size": 34069,
-      "publishedAt": "2026-09-30T03:47:36.869Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.38/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.38/lang-defaults.linkdesk-plugin",
+      "size": 34417,
+      "publishedAt": "2026-09-30T11:40:31.867Z",
       "versions": [
+        {
+          "version": "1.0.38",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.38/lang-defaults.linkdesk-plugin",
+          "publishedAt": "2026-09-30T11:40:31.867Z",
+          "changelog": "- **新增英文词条 4 条**（用户实机立案「app.theme 卡片 Dark/Light 指认不明」）：壳的内置兜底配方显示名\n  「内置深色」/「内置浅色」（原为颜色词 `Dark`/`Light`，与插件配方并列时被读成同一套的深浅搭子），\n  以及主题卡片新的**来源行**文案「壳自带」/「来自 {{name}}」。消费方 = 壳\n  `src/core/services/ui/ThemeEngine/source.ts`（宿主名字显示期 t()）、`ThemePicker` 卡片与\n  `theme.pick` 命令面。**弃用名 `Dark`/`Light` 不进本字典**：那是配方显示名的历史值，不再由壳产出。"
+        },
         {
           "version": "1.0.37",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.37/lang-defaults.linkdesk-plugin",
