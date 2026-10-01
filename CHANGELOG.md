@@ -1,5 +1,10 @@
 # 更新日志
 
+## v1.0.43（2026-10-01）
+
+- **补七条壳侧用到的词条**（欢迎页重设计 W3b/W4c）：最近区的失效反馈与手动移除——`最近文件夹` / `已删除` / `从最近移除 {{name}}` / `此文件夹已不存在，已从最近移除` / `此视图的插件已卸载，已从最近移除` / `最近列表不可用`；帮助区「使用文档」的指路句 `用户文档整理中——先看「帮助 → AI 操作手册」（随包发货、离线可读）`。本包补英文译名 **Recent Folders** / **Deleted** / **Remove {{name}} from recent** / **This folder no longer exists — removed from recent** / **This view's plugin has been uninstalled — removed from recent** / **Recent list unavailable** / **Docs are being organized — see "Help → AI Manual" for now (ships with the app, readable offline)**。
+- 零行为变化：其余 656 条目一字未动。
+
 ## v1.0.42（2026-10-01）
 
 - **补一条壳侧用到的词条**：壳新命令 `app.openWelcome`（欢迎页重设计 W4a）的显示名「欢迎页」——标题/帮助菜单/标签栏「+」菜单三处共用；本包补英文译名 **Welcome**。此前只有中文回退（等于英文界面下显示中文）。
