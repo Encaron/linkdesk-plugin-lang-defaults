@@ -653,5 +653,6 @@
   "官方语言": "Official Language Pack",
   "出厂中文/English 语言包——可卸载，卸载后 t(key) 返回 key 原文": "Factory Chinese/English language pack — uninstallable; after removal t(key) returns the key itself",
   "管理": "Manage",
-  "内置图标集": "Built-in Icon Set"
+  "内置图标集": "Built-in Icon Set",
+  "欢迎页": "Welcome"
 }
