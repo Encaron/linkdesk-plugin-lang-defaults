@@ -668,5 +668,7 @@
   "打开缓存目录": "Open Cache Folder",
   "缓存目录": "Cache Folder",
   "缓存目录——缓存文件实际存放的位置（只读，软件内不可改）": "Cache folder — where cache files actually live (read-only; cannot be changed in the app)",
-  "打开缓存目录失败": "Failed to open the cache folder"
+  "打开缓存目录失败": "Failed to open the cache folder",
+  "回退内置设置页": "Revert to Built-in Settings Page",
+  "没有任何插件声明 factoryRole:\"settings\"——没有可回退的内置设置页": "No plugin declares factoryRole:\"settings\" — there is no built-in settings page to revert to"
 }
