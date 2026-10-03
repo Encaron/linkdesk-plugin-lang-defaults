@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-10-03T18:03:57.288Z",
+  "updatedAt": "2026-10-03T18:22:10.126Z",
   "plugins": [
     {
       "id": "lang-defaults",
       "name": "官方语言",
-      "version": "1.0.47",
+      "version": "1.0.48",
       "description": "出厂中文/English 语言包——可卸载，卸载后 t(key) 返回 key 原文",
       "author": {
         "name": "官方"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.47/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.48/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.47/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.47/lang-defaults.linkdesk-plugin",
-      "size": 29647,
-      "publishedAt": "2026-10-03T18:03:57.288Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.48/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.48/lang-defaults.linkdesk-plugin",
+      "size": 29887,
+      "publishedAt": "2026-10-03T18:22:10.126Z",
       "versions": [
+        {
+          "version": "1.0.48",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.48/lang-defaults.linkdesk-plugin",
+          "publishedAt": "2026-10-03T18:22:10.126Z",
+          "changelog": "- **补五条壳侧用到的词条**（设置行-控制只读同行 2.5：AI 接入分区四组「开关 ＋ 状态行」并成一行，`statusCommand` 从「只配只读行」升为可与任意主控件共存的**伴生声明**）：四条开关描述改写为**双语义**（说明右侧灰字是实时读数）＋「通道」组说明改指伴生读数。本包补英文译名五条。\n- ⚠️ **纯追加、不删旧条**（与 v1.0.45 不同）：被替换的四条旧描述、以及四个退役状态键（`ai.mcp.status` 等）的描述译名**一律原样保留**——壳侧这一版**尚未发版**（2026-10-03 收窄授权后只落仓攒批），已发布的旧壳仍按旧串取译名；删掉会让旧壳用户看到中文原文。\n- 零行为变化：键数 671 → 676（纯追加五条），其余 671 条目一字未动。"
+        },
         {
           "version": "1.0.47",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.47/lang-defaults.linkdesk-plugin",
@@ -44,8 +50,7 @@
         {
           "version": "1.0.43",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.43/lang-defaults.linkdesk-plugin",
-          "publishedAt": "2026-10-01T15:04:01.248Z",
-          "changelog": "- **补七条壳侧用到的词条**（欢迎页重设计 W3b/W4c）：最近区的失效反馈与手动移除——`最近文件夹` / `已删除` / `从最近移除 {{name}}` / `此文件夹已不存在，已从最近移除` / `此视图的插件已卸载，已从最近移除` / `最近列表不可用`；帮助区「使用文档」的指路句 `用户文档整理中——先看「帮助 → AI 操作手册」（随包发货、离线可读）`。本包补英文译名 **Recent Folders** / **Deleted** / **Remove {{name}} from recent** / **This folder no longer exists — removed from recent** / **This view's plugin has been uninstalled — removed from recent** / **Recent list unavailable** / **Docs are being organized — see \"Help → AI Manual\" for now (ships with the app, readable offline)**。\n- 零行为变化：其余 656 条目一字未动。"
+          "publishedAt": "2026-10-01T15:04:01.248Z"
         },
         {
           "version": "1.0.42",
