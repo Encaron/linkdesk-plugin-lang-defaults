@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-10-03T16:10:22.924Z",
+  "updatedAt": "2026-10-03T17:10:12.808Z",
   "plugins": [
     {
       "id": "lang-defaults",
       "name": "官方语言",
-      "version": "1.0.45",
+      "version": "1.0.46",
       "description": "出厂中文/English 语言包——可卸载，卸载后 t(key) 返回 key 原文",
       "author": {
         "name": "官方"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.45/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.46/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.45/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.45/lang-defaults.linkdesk-plugin",
-      "size": 29732,
-      "publishedAt": "2026-10-03T16:10:22.924Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.46/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.46/lang-defaults.linkdesk-plugin",
+      "size": 29668,
+      "publishedAt": "2026-10-03T17:10:12.808Z",
       "versions": [
+        {
+          "version": "1.0.46",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.46/lang-defaults.linkdesk-plugin",
+          "publishedAt": "2026-10-03T17:10:12.808Z",
+          "changelog": "- **补两条壳侧用到的词条**（设置控件-词表正典与共享化 4.3：换套逃生舱命令 `core.resetSettingsToBuiltin`）：命令标题 `回退内置设置页`；槽空时的结论句 `没有任何插件声明 factoryRole:\"settings\"——没有可回退的内置设置页`。本包补英文译名 **Revert to Built-in Settings Page** / **No plugin declares factoryRole:\"settings\" — there is no built-in settings page to revert to**。\n- 零行为变化：键数 668 → 670（纯追加两条），其余 668 条目一字未动。"
+        },
         {
           "version": "1.0.45",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.45/lang-defaults.linkdesk-plugin",
@@ -44,8 +50,7 @@
         {
           "version": "1.0.41",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.41/lang-defaults.linkdesk-plugin",
-          "publishedAt": "2026-09-30T21:44:53.268Z",
-          "changelog": "- **跟上壳侧一条新文案 ＋ 一条改键**（E6#165 去双语化续篇）：壳侧 `app.iconTheme` 下拉打通显示面后，设置页多出两条文案——`内置图标集`（内置那档的显示名，codicon 保底）与说明行 `图标主题——文件图标集（内置图标集 = codicon 保底）`；本包补英文译名 **Built-in Icon Set** / **Icon Theme — file icon set (built-in icon set = codicon fallback)**。\n- **清两条僵尸键**：`图标主题——文件图标集（default = 内置 codicon 保底）`（壳侧说明行本轮改写，旧键无人引用）＋ `粉彩图标集 Pastel Icons`（`theme-iconset-pastel` 1.0.6 起该显示名的译名住它自己仓的字典，双语字面量作废——字典里留着它就是给一条不存在的 key 备译文）。\n- 零行为变化：其余 653 条目一字未动。"
+          "publishedAt": "2026-09-30T21:44:53.268Z"
         },
         {
           "version": "1.0.40",
