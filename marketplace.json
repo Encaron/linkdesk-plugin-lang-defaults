@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-10-03T17:10:12.808Z",
+  "updatedAt": "2026-10-03T18:03:57.288Z",
   "plugins": [
     {
       "id": "lang-defaults",
       "name": "官方语言",
-      "version": "1.0.46",
+      "version": "1.0.47",
       "description": "出厂中文/English 语言包——可卸载，卸载后 t(key) 返回 key 原文",
       "author": {
         "name": "官方"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.46/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.47/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.46/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.46/lang-defaults.linkdesk-plugin",
-      "size": 29668,
-      "publishedAt": "2026-10-03T17:10:12.808Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.47/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.47/lang-defaults.linkdesk-plugin",
+      "size": 29647,
+      "publishedAt": "2026-10-03T18:03:57.288Z",
       "versions": [
+        {
+          "version": "1.0.47",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.47/lang-defaults.linkdesk-plugin",
+          "publishedAt": "2026-10-03T18:03:57.288Z",
+          "changelog": "- **补一条壳侧用到的词条**（数字步进件-主题适配：`NumberInput` 的输入框补可访问名称，[02 E9]）：`数值`。本包补英文译名 **Value**。\n- 零行为变化：键数 670 → 671（纯追加一条），其余 670 条目一字未动。"
+        },
         {
           "version": "1.0.46",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.46/lang-defaults.linkdesk-plugin",
@@ -44,8 +50,7 @@
         {
           "version": "1.0.42",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.42/lang-defaults.linkdesk-plugin",
-          "publishedAt": "2026-10-01T14:01:14.661Z",
-          "changelog": "- **补一条壳侧用到的词条**：壳新命令 `app.openWelcome`（欢迎页重设计 W4a）的显示名「欢迎页」——标题/帮助菜单/标签栏「+」菜单三处共用；本包补英文译名 **Welcome**。此前只有中文回退（等于英文界面下显示中文）。\n- 零行为变化：其余 655 条目一字未动。"
+          "publishedAt": "2026-10-01T14:01:14.661Z"
         },
         {
           "version": "1.0.41",
