@@ -1,5 +1,10 @@
 # 更新日志
 
+## v1.0.47（2026-10-04）
+
+- **补一条壳侧用到的词条**（数字步进件-主题适配：`NumberInput` 的输入框补可访问名称，[02 E9]）：`数值`。本包补英文译名 **Value**。
+- 零行为变化：键数 670 → 671（纯追加一条），其余 670 条目一字未动。
+
 ## v1.0.46（2026-10-03）
 
 - **补两条壳侧用到的词条**（设置控件-词表正典与共享化 4.3：换套逃生舱命令 `core.resetSettingsToBuiltin`）：命令标题 `回退内置设置页`；槽空时的结论句 `没有任何插件声明 factoryRole:"settings"——没有可回退的内置设置页`。本包补英文译名 **Revert to Built-in Settings Page** / **No plugin declares factoryRole:"settings" — there is no built-in settings page to revert to**。
