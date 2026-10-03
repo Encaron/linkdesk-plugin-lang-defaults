@@ -676,5 +676,9 @@
   "打开缓存目录失败": "Failed to open the cache folder",
   "回退内置设置页": "Revert to Built-in Settings Page",
   "没有任何插件声明 factoryRole:\"settings\"——没有可回退的内置设置页": "No plugin declares factoryRole:\"settings\" — there is no built-in settings page to revert to",
-  "数值": "Value"
+  "数值": "Value",
+  "{{state}} · 重启软件后关闭": "{{state}} · will close after restart",
+  "{{state}} · 与 {{peer}} 共用": "{{state}} · shared with {{peer}}",
+  "MCP 通道": "MCP Channel",
+  "CLI 通道": "CLI Channel"
 }
