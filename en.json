@@ -237,6 +237,7 @@
   "导入工作区": "Import Workspace",
   "重置此设置": "Reset Setting",
   "复制设置 ID": "Copy Setting ID",
+  "复制设置名称": "Copy Setting Name",
   "{{count}} 条通知": "{{count}} notifications",
   "通知": "Notifications",
   "清除已完成": "Clear Completed",

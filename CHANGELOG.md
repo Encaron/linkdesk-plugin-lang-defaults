@@ -1,5 +1,11 @@
 # 更新日志
 
+## v1.0.51（2026-10-04）
+
+- **补 1 条壳侧词条**：`复制设置名称 → Copy Setting Name`（配置项短名案 T5 齿轮新项的**命令标题**——壳 `coreCommands.ts` 新命令 `workbench.action.copySettingName`，齿轮槽 `SettingItemGear`、`when=settingHasTitle` 门控；命令标题是壳侧可渲染中文串，`audit-i18n --strict` 要求有译名）。
+- ⚠️ **纯追加、不删旧条**：708 → 709 键（净增 1），既有条目一字未动。
+- 零行为变化：纯数据词条追加，无源码改动。
+
 ## v1.0.50（2026-10-04）
 
 - **补 28 条壳侧配置项短名（title）英译**（配置项短名案·壳 41 条 title 落仓同笔）：壳 `src/App/config/` 四文件 41 条配置项行名短名全部落 `title: t("…")`，英文界面经本包取译（壳侧译名唯一住点）。本包净新增 28 条（如 `外观模式 → Appearance Mode`、`玻璃模糊 → Glass Blur`、`分区圆角 → Zone Corner Radius`、`复位整体配方 → Reset to Whole Recipe`、`更新方式 → Update Mode`）；另 13 条复用既有词条（`主题配方`/`配色`/`强调色`/`强调色来源`/`文字极性`/`通道详情`/`AI 操作手册`/`开放范围明细`/`完整操作清单`/`操作日志`/`缓存目录`/`MCP 通道`/`CLI 通道`——41/41 全覆盖，零缺译）。
