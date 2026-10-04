@@ -716,5 +716,9 @@
   "窗口缩放级别": "Window Zoom Level",
   "文件右键菜单": "File Context Menu",
   "文件夹右键菜单": "Folder Context Menu",
-  "文件关联": "File Associations"
+  "文件关联": "File Associations",
+  "中文": "Chinese",
+  "标题栏": "Title Bar",
+  "汉堡菜单": "Hamburger Menu",
+  "两者都显示": "Both"
 }

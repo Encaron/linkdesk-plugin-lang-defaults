@@ -1,5 +1,11 @@
 # 更新日志
 
+## v1.0.53（2026-10-04）
+
+- **补 4 条「枚举显示名」英译**（配置项短名案·第 3 波·D7 收尾）：壳 `src/App/startup.ts` 给 `app.language`／`app.menuStyle` 两行补上 `enumDescriptions`（此前下拉裸显 `zh`／`titlebar` 这类英文值），新增 4 条：`中文 → Chinese`、`标题栏 → Title Bar`、`汉堡菜单 → Hamburger Menu`、`两者都显示 → Both`。
+- ⚠️ **纯追加、不删旧条**：716 → 720 键（净增 4），既有条目一字未动。
+- 零行为变化：纯数据词条追加，无源码改动。
+
 ## v1.0.52（2026-10-04）
 
 - **补 7 条壳侧配置项短名（title）英译**（配置项短名案·第 1 波收尾·2026-10-04 用户拍板扩面）：壳 `src/App/startup.ts` 通用组 7 条配置项（`app.language` / `app.menuStyle` / `app.hint.enabled` / `app.osIntegration.fileMenu` / `app.osIntegration.dirMenu` / `app.osIntegration.fileAssoc` / `window.zoomLevel`）落 `title: t("…")`——此前这 7 条只有组名与描述有译名，行名短名是本笔新落。新增 7 条：`显示语言 → Display Language`（⛔ 没叫「界面语言」：与本行 description 同字，行名与副文本会重复成一行废话；「显示语言」= VS Code zh 界面同款叫法）、`菜单栏样式 → Menu Bar Style`、`悬停提示 → Hover Hints`、`窗口缩放级别 → Window Zoom Level`、`文件右键菜单 → File Context Menu`、`文件夹右键菜单 → Folder Context Menu`、`文件关联 → File Associations`。
