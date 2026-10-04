@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-10-04T14:51:48.595Z",
+  "updatedAt": "2026-10-04T16:12:34.808Z",
   "plugins": [
     {
       "id": "lang-defaults",
       "name": "官方语言",
-      "version": "1.0.52",
+      "version": "1.0.53",
       "description": "出厂中文/English 语言包——可卸载，卸载后 t(key) 返回 key 原文",
       "author": {
         "name": "官方"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.52/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.53/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.52/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.52/lang-defaults.linkdesk-plugin",
-      "size": 31145,
-      "publishedAt": "2026-10-04T14:51:48.595Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.53/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.53/lang-defaults.linkdesk-plugin",
+      "size": 31140,
+      "publishedAt": "2026-10-04T16:12:34.808Z",
       "versions": [
+        {
+          "version": "1.0.53",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.53/lang-defaults.linkdesk-plugin",
+          "publishedAt": "2026-10-04T16:12:34.808Z",
+          "changelog": "- **补 4 条「枚举显示名」英译**（配置项短名案·第 3 波·D7 收尾）：壳 `src/App/startup.ts` 给 `app.language`／`app.menuStyle` 两行补上 `enumDescriptions`（此前下拉裸显 `zh`／`titlebar` 这类英文值），新增 4 条：`中文 → Chinese`、`标题栏 → Title Bar`、`汉堡菜单 → Hamburger Menu`、`两者都显示 → Both`。\n- ⚠️ **纯追加、不删旧条**：716 → 720 键（净增 4），既有条目一字未动。\n- 零行为变化：纯数据词条追加，无源码改动。"
+        },
         {
           "version": "1.0.52",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.52/lang-defaults.linkdesk-plugin",
@@ -44,8 +50,7 @@
         {
           "version": "1.0.48",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.48/lang-defaults.linkdesk-plugin",
-          "publishedAt": "2026-10-03T18:22:10.126Z",
-          "changelog": "- **补五条壳侧用到的词条**（设置行-控制只读同行 2.5：AI 接入分区四组「开关 ＋ 状态行」并成一行，`statusCommand` 从「只配只读行」升为可与任意主控件共存的**伴生声明**）：四条开关描述改写为**双语义**（说明右侧灰字是实时读数）＋「通道」组说明改指伴生读数。本包补英文译名五条。\n- ⚠️ **纯追加、不删旧条**（与 v1.0.45 不同）：被替换的四条旧描述、以及四个退役状态键（`ai.mcp.status` 等）的描述译名**一律原样保留**——壳侧这一版**尚未发版**（2026-10-03 收窄授权后只落仓攒批），已发布的旧壳仍按旧串取译名；删掉会让旧壳用户看到中文原文。\n- 零行为变化：键数 671 → 676（纯追加五条），其余 671 条目一字未动。"
+          "publishedAt": "2026-10-03T18:22:10.126Z"
         },
         {
           "version": "1.0.47",
