@@ -709,5 +709,12 @@
   "细分管理": "Fine Gates",
   "日志文件": "Log File",
   "更新方式": "Update Mode",
-  "自动打开发行说明": "Auto-Open Release Notes"
+  "自动打开发行说明": "Auto-Open Release Notes",
+  "显示语言": "Display Language",
+  "菜单栏样式": "Menu Bar Style",
+  "悬停提示": "Hover Hints",
+  "窗口缩放级别": "Window Zoom Level",
+  "文件右键菜单": "File Context Menu",
+  "文件夹右键菜单": "Folder Context Menu",
+  "文件关联": "File Associations"
 }
