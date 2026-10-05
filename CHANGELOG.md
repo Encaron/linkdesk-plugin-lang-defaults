@@ -2,6 +2,12 @@
 
 # 更新日志
 
+## v1.0.58（2026-10-05）
+
+- **补 4 条壳侧设置页词条（文件打开方式案第 5 波 · T6「默认打开方式」分组底部 OS 折叠块）**：新增 `app.osAssociations.followPlugins` 与 `app.osAssociations.overrides` 两键的标题与描述——`跟随插件登记 → Follow plugins`、`跟随例外 → Follow exceptions` 及两条说明。四条都是壳侧 `src/App/config/fileAssociations.ts` 的声明串，`audit-i18n --strict` 要求有译名。块内状态行文案住设置插件仓（随其仓 `i18n/en.json`）。
+- ⚠️ **纯追加、不删旧条**：727 → 731 键（净增 4），既有条目一字未动。
+- 零行为变化：纯数据词条追加，无源码改动。
+
 ## v1.0.57（2026-10-05）
 
 - **补 3 条壳侧设置页词条（文件打开方式案第 4 波 · 设置页「默认打开方式」分组）**：新增分组的组名 `默认打开方式 → Default Open With`、组副标题（文件树右键选择器与本页同写一处）与键描述（按类型/按插件管理 ＋「恢复自动」＝交回声明序）——三条都是壳侧 `src/App/config/fileAssociations.ts` 的声明串，`audit-i18n --strict` 要求有译名。管理视图自身的文案住设置插件仓（随其仓 `i18n/en.json`）。
