@@ -720,5 +720,6 @@
   "汉堡菜单": "Hamburger Menu",
   "两者都显示": "Both",
   "检测到另一款可打开 .{{ext}} 文件的插件（{{name}}），当前默认仍为 {{current}}；可右键该类文件并选择「打开方式」更改": "Another plugin that can open .{{ext}} files was detected ({{name}}). The current default is still {{current}}; right-click files of this type and choose \"Open With\" to change it",
-  "检测到另一款可打开 .{{ext}} 文件的插件（{{name}}）；可右键该类文件并选择「打开方式」更改": "Another plugin that can open .{{ext}} files was detected ({{name}}); right-click files of this type and choose \"Open With\" to change it"
+  "检测到另一款可打开 .{{ext}} 文件的插件（{{name}}）；可右键该类文件并选择「打开方式」更改": "Another plugin that can open .{{ext}} files was detected ({{name}}); right-click files of this type and choose \"Open With\" to change it",
+  "{{name}} 的更新（{{to}}）已就绪——当前版本目录被占用，重启 LinkDesk 后自动替换。": "The update for {{name}} ({{to}}) is ready — the current version's folder is in use; it will be replaced automatically after LinkDesk restarts."
 }
