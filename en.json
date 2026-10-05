@@ -184,6 +184,7 @@
   "内置": "Built-in",
   "已启用": "Enabled",
   "已禁用": "Disabled",
+  "已停用": "Disabled",
   "发送行为": "Send Behavior",
   "关键词过滤": "Keyword Filter",
   "+新建": "+ New",
