@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-10-05T02:04:09.016Z",
+  "updatedAt": "2026-10-05T04:12:56.312Z",
   "plugins": [
     {
       "id": "lang-defaults",
       "name": "官方语言",
-      "version": "1.0.54",
+      "version": "1.0.55",
       "description": "出厂中文/English 语言包——可卸载，卸载后 t(key) 返回 key 原文",
       "author": {
         "name": "官方"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.54/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.55/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.54/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.54/lang-defaults.linkdesk-plugin",
-      "size": 30979,
-      "publishedAt": "2026-10-05T02:04:09.016Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.55/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.55/lang-defaults.linkdesk-plugin",
+      "size": 30861,
+      "publishedAt": "2026-10-05T04:12:56.312Z",
       "versions": [
+        {
+          "version": "1.0.55",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.55/lang-defaults.linkdesk-plugin",
+          "publishedAt": "2026-10-05T04:12:56.312Z",
+          "changelog": "- **新增壳侧通知串一条（插件更新占用转延迟提交）**：更新提交撞上目录占用（dev 下 Vite 句柄主场景）时不再报错——暂存保留、重启自动替换，本串即那条「已就绪，重启后自动替换」提示的中英腿。纯数据插件，零行为变化。\n# 更新日志"
+        },
         {
           "version": "1.0.54",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.54/lang-defaults.linkdesk-plugin",
@@ -44,8 +50,7 @@
         {
           "version": "1.0.50",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.50/lang-defaults.linkdesk-plugin",
-          "publishedAt": "2026-10-04T14:16:08.030Z",
-          "changelog": "- **补 28 条壳侧配置项短名（title）英译**（配置项短名案·壳 41 条 title 落仓同笔）：壳 `src/App/config/` 四文件 41 条配置项行名短名全部落 `title: t(\"…\")`，英文界面经本包取译（壳侧译名唯一住点）。本包净新增 28 条（如 `外观模式 → Appearance Mode`、`玻璃模糊 → Glass Blur`、`分区圆角 → Zone Corner Radius`、`复位整体配方 → Reset to Whole Recipe`、`更新方式 → Update Mode`）；另 13 条复用既有词条（`主题配方`/`配色`/`强调色`/`强调色来源`/`文字极性`/`通道详情`/`AI 操作手册`/`开放范围明细`/`完整操作清单`/`操作日志`/`缓存目录`/`MCP 通道`/`CLI 通道`——41/41 全覆盖，零缺译）。\n- ⚠️ **纯追加、不删旧条**：680 → 708 键（净增 28），既有条目一字未动；壳侧这一版照旧 dev 攒批不发版，已发布旧壳不受影响。\n- 零行为变化：纯数据词条追加，无源码改动。"
+          "publishedAt": "2026-10-04T14:16:08.030Z"
         },
         {
           "version": "1.0.49",
