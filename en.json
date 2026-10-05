@@ -667,9 +667,7 @@
   "此文件夹已不存在，已从最近移除": "This folder no longer exists — removed from recent",
   "此视图的插件已卸载，已从最近移除": "This view's plugin has been uninstalled — removed from recent",
   "最近列表不可用": "Recent list unavailable",
-  "用户文档整理中——先看「帮助 → AI 操作手册」（随包发货、离线可读）": "Docs are being organized — see \"Help → AI Manual\" for now (ships with the app, readable offline)"
-,
-
+  "用户文档整理中——先看「帮助 → AI 操作手册」（随包发货、离线可读）": "Docs are being organized — see \"Help → AI Manual\" for now (ships with the app, readable offline)",
   "存储": "Storage",
   "打开缓存目录": "Open Cache Folder",
   "缓存目录": "Cache Folder",
@@ -720,5 +718,7 @@
   "中文": "Chinese",
   "标题栏": "Title Bar",
   "汉堡菜单": "Hamburger Menu",
-  "两者都显示": "Both"
+  "两者都显示": "Both",
+  "检测到另一款可打开 .{{ext}} 文件的插件（{{name}}），当前默认仍为 {{current}}；可右键该类文件并选择「打开方式」更改": "Another plugin that can open .{{ext}} files was detected ({{name}}). The current default is still {{current}}; right-click files of this type and choose \"Open With\" to change it",
+  "检测到另一款可打开 .{{ext}} 文件的插件（{{name}}）；可右键该类文件并选择「打开方式」更改": "Another plugin that can open .{{ext}} files was detected ({{name}}); right-click files of this type and choose \"Open With\" to change it"
 }
