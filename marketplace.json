@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-10-05T15:34:06.567Z",
+  "updatedAt": "2026-10-06T10:43:25.314Z",
   "plugins": [
     {
       "id": "lang-defaults",
       "name": "官方语言",
-      "version": "1.0.58",
+      "version": "1.0.59",
       "description": "出厂中文/English 语言包——可卸载，卸载后 t(key) 返回 key 原文",
       "author": {
         "name": "官方"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.58/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.59/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.58/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.58/lang-defaults.linkdesk-plugin",
-      "size": 31079,
-      "publishedAt": "2026-10-05T15:34:06.567Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.59/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.59/lang-defaults.linkdesk-plugin",
+      "size": 31778,
+      "publishedAt": "2026-10-06T10:43:25.314Z",
       "versions": [
+        {
+          "version": "1.0.59",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.59/lang-defaults.linkdesk-plugin",
+          "publishedAt": "2026-10-06T10:43:25.314Z",
+          "changelog": "- **归一化夹第二批（文案与称呼）词条同步——本档首次「带删」发版**：壳侧 12 条归一化收口连带 `en.json` 增删。\n  - ＋6：`选择主题 → Select Theme`、`暂无主题配方 → No theme recipes available`、`暂无视图 → No views. Search the plugin marketplace.`、`内存使用率偏高（{{used}} MB / {{limit}} MB） → High memory usage ({{used}} MB / {{limit}} MB)`、`复位外观覆盖… → Reset Appearance Overrides...`、`复位为整体配方… → Reset to Whole Recipe...`（后两条是 theme 三条命令 title 去「分类：」手写前缀后的新键）。\n  - −12（旧写法废词条，跨 16 个官方仓 grep 过、除本仓自身**零源码引用**）：`切换主题`、`无可用主题配方`、`暂无可用视图`、`输入命令名称搜索…`、`切换插件 DevTools`、`切换 DevTools`、`开发者`、`Pool 池窗口`、`当前`、`主题：选择主题…`、`外观：复位外观覆盖…`、`混搭：复位为整体配方…`。\n  - 🔁 **改键名保留一条**：`zh.json` 的例外译文 `暂无可用视图` → 键名改 `暂无视图`，**译文一字不动**（「暂无视图，请在插件市场搜索安装」）——中文用户可见文案只少「可用」二字，下半句提示语完整保留。\n- 键数 731 → 725（删 12 补 6）。⚠️ **本档打破「纯追加、不删旧条」惯例**：本批判据就是「废词条同笔删除，不留孤儿」（用户 2026-10-06 明令）。\n- 顺带修一处文档缺陷：本文件原有两个逐字相同的 `# 更新日志` 标题（重复 H1），删其一。\n- 零行为变化：纯数据词条增删，本仓无源码。"
+        },
         {
           "version": "1.0.58",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.58/lang-defaults.linkdesk-plugin",
@@ -44,8 +50,7 @@
         {
           "version": "1.0.54",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.54/lang-defaults.linkdesk-plugin",
-          "publishedAt": "2026-10-05T02:04:09.016Z",
-          "changelog": "- **新增壳侧通知串两条（文件打开方式案第 3 波 · E1/E2 第二竞争者提示）**：装上第二只能打开同类文件的插件时，壳弹一次提示「当前默认仍为 X，可右键「打开方式」更改」——中文原文即 key，本包补英译。纯数据插件，零行为变化。"
+          "publishedAt": "2026-10-05T02:04:09.016Z"
         },
         {
           "version": "1.0.53",
