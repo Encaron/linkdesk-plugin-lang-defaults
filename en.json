@@ -315,7 +315,7 @@
   "启用": "Enable",
   "文件已删除，标签已关闭": "File deleted, tab closed",
   "内存压力：界面进程内存占用过高（{{mb}} MB）": "Memory pressure: UI process memory usage is too high ({{mb}} MB)",
-  "内存使用率偏高（{{used}} MB / {{limit}} MB）": "High memory usage ({{used}} MB / {{limit}} MB)",
+  "内存使用率偏高（{{used}} MB / {{limit}} MB），建议关闭不活跃的插件": "High memory usage ({{used}} MB / {{limit}} MB). Consider closing inactive plugins",
   "所有文件": "All Files",
   "切换侧栏可见性": "Toggle Sidebar Visibility",
   "关闭全部": "Close All",
