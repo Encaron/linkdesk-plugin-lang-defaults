@@ -284,7 +284,7 @@
   "写入配置项": "Write Configuration Setting",
   "清除配置项覆盖": "Clear Configuration Override",
   "；想「删掉这条覆盖、回到默认」用 workbench.action.clearConfiguration": "; to remove this override and fall back to the default, use workbench.action.clearConfiguration",
-  "该键在设置页还有一枚「重置为默认项」（效果 = 不跟随主题）——本命令删的是用户覆盖（回落到默认值／主题），两者终点不同": "This key also has a “Reset to default” action in Settings (effect: do not follow the theme) — this command removes the user override (falling back to the default value / theme); the two end at different places",
+  "该键在设置页还有一枚「重置此设置」（效果 = 不跟随主题）——本命令删的是用户覆盖（回落到默认值／主题），两者终点不同": "This key also has a “Reset Setting” action in Settings (effect: do not follow the theme) — this command removes the user override (falling back to the default value / theme); the two end at different places",
   "读取布局": "Read Layout",
   "列出容器与视图": "List Containers and Views",
   "切换底部面板可见性": "Toggle Panel Visibility",
