@@ -761,5 +761,13 @@
   "（自动）": "(automatic)",
   " · 整组 {{total}} 类中 {{count}} 类单独设置": " · {{count}} of {{total}} types set individually",
   "当前单击打开：": "Opens on click: ",
-  "{{types}} 的默认打开方式": "Default handler for {{types}}"
+  "{{types}} 的默认打开方式": "Default handler for {{types}}",
+  "不是有效的 .linkdesk-plugin 包": "Not a valid .linkdesk-plugin package",
+  "包内 pluginId 非法": "Invalid pluginId inside the package",
+  "已存在安装目录": "Already installed — target directory exists",
+  "包内含非法条目（zip-slip）": "Package contains illegal entries (zip-slip)",
+  "此插件需要许可——请先在详情页输入许可密钥": "This plugin requires a license — enter your license key on the plugin detail page first",
+  "校验插件包": "Validating plugin package",
+  "校验插件": "Validating plugin",
+  "复制插件文件": "Copying plugin files"
 }
