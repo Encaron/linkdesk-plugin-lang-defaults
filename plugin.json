@@ -2,7 +2,7 @@
   "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/plugin.schema.json",
   "pluginId": "lang-defaults",
   "name": "官方语言",
-  "version": "1.0.63",
+  "version": "1.0.64",
   "category": "development",
   "categories": ["i18n"],
   "icon": "resources/icon.svg",
