@@ -7,7 +7,7 @@
   "categories": ["i18n"],
   "icon": "resources/icon.svg",
   "description": "出厂中文/English 语言包——可卸载，卸载后 t(key) 返回 key 原文",
-  "author": "官方",
+  "author": "Encaron",
   "contributes": {
     "languages": [
       {
