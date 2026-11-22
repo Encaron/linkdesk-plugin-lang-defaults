@@ -68,7 +68,7 @@
   "选择颜色…": "Select Color...",
   "已复制为 JSON": "Copied as JSON",
   "双击固定": "Double-click to pin",
-  "应用": "Application",
+  "应用": "Apply",
   "开发人员": "Developer",
   "自定义强调色（图标栏高亮、开关、焦点边框）——清除 = 跟随主题强调色": "Custom accent color (icon bar highlight, toggles, focus borders) — clear to follow the theme accent",
   "强调色来源——跟随主题配方：取当前配色来源的强调色；自定义：自己指定。独立轴：外观模式切回「跟随主题」不会重置它": "Accent source — Follow Theme Recipe: use the current color source's accent; Custom: specify your own. Independent axis: switching the appearance mode back to Follow Theme does not reset it",
@@ -783,5 +783,12 @@
   "检查插件更新": "Check for Plugin Updates",
   "刷新目录内容": "Refresh Catalog",
   "全部标为已读": "Mark All as Read",
-  "设置视图偏好": "Set View Preferences"
+  "设置视图偏好": "Set View Preferences",
+  "应用名": "Application",
+  "色相": "Hue",
+  "不透明度": "Opacity",
+  "颜色值": "Color value",
+  "无效的颜色值": "Invalid color value",
+  "此值是 CSS 变量/表达式——只读展示，不能在调色器里改。": "This value is a CSS variable/expression — shown read-only here; it cannot be edited in the color picker.",
+  "调色器操作": "Color picker action"
 }
