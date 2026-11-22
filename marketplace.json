@@ -12,6 +12,10 @@
       },
       "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.64/resources/icon.svg",
       "iconSource": "url",
+      "cover": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/HEAD/resources/cover.svg",
+      "screenshots": [
+        "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/HEAD/resources/cover.svg"
+      ],
       "category": "development",
       "categories": [
         "i18n"
