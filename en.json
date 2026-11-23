@@ -803,5 +803,6 @@
   "重置为当前主题": "Reset to Current Theme",
   "清除你的外观覆盖与分区来源，按当前主题的值重新开始；仍留在自定义，可继续微调": "Clear your appearance overrides and domain sources and restart from the current theme values; you stay in Custom and can keep tweaking.",
   "分区来源改回主题": "Domain Sources → Follow Theme",
-  "颜色 / 玻璃 / 背景 / 字体的来源改回「跟随主题」；已调好的外观覆盖不受影响": "Color / glass / background / font sources go back to \"Follow Theme\"; your appearance overrides are unaffected."
+  "颜色 / 玻璃 / 背景 / 字体的来源改回「跟随主题」；已调好的外观覆盖不受影响": "Color / glass / background / font sources go back to \"Follow Theme\"; your appearance overrides are unaffected.",
+  "用主题样式重来": "Start from Theme Style"
 }
