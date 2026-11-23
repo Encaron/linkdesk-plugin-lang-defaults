@@ -1,30 +1,36 @@
 {
   "version": "1",
-  "updatedAt": "2026-11-23T21:00:51.325Z",
+  "updatedAt": "2026-11-23T22:08:47.854Z",
   "plugins": [
     {
       "id": "lang-defaults",
       "name": "官方语言",
-      "version": "1.0.73",
+      "version": "1.0.74",
       "description": "出厂中文/English 语言包——可卸载，卸载后 t(key) 返回 key 原文",
       "author": {
         "name": "Encaron"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.73/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.74/resources/icon.svg",
       "iconSource": "url",
       "category": "development",
       "categories": [
         "i18n"
       ],
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.73/README.md",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.74/README.md",
       "readmeLocales": {
-        "zh": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.73/README.md",
-        "en": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.73/docs/readme/en.md"
+        "zh": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.74/README.md",
+        "en": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.74/docs/readme/en.md"
       },
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.73/lang-defaults.linkdesk-plugin",
-      "size": 33593,
-      "publishedAt": "2026-11-23T21:00:51.325Z",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.74/lang-defaults.linkdesk-plugin",
+      "size": 37229,
+      "publishedAt": "2026-11-23T22:08:47.854Z",
       "versions": [
+        {
+          "version": "1.0.74",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.74/lang-defaults.linkdesk-plugin",
+          "publishedAt": "2026-11-23T22:08:47.854Z",
+          "changelog": "- **插件安装/更新确认（P1 壳托管）词条**：安装卡（首装/来源变更/降级/官方）、批量汇总卡（总数/需确认/免问/分组/改设置/逐个确认）、来源信任清单与两条开关、完成汇总与失败行、HTTPS 限制 —— 共 55 条。\n- **AI 权限档位词条**（线 1）：档位说明、完全访问确认、风险表、命令面回执 —— 共 23 条。\n- **外观资源域与打开方式词条**（线 2）：背景图片选择、assetDomain/pickTarget 说明、配色域来源 —— 共 4 条。"
+        },
         {
           "version": "1.0.73",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.73/lang-defaults.linkdesk-plugin",
@@ -52,8 +58,7 @@
         {
           "version": "1.0.69",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.69/lang-defaults.linkdesk-plugin",
-          "publishedAt": "2026-11-23T19:49:59.692Z",
-          "changelog": "- 新增 4 条外观设置词条：`以当前主题为起点` / `复位分区来源` 及其说明（配合外观复位入口归位）。"
+          "publishedAt": "2026-11-23T19:49:59.692Z"
         },
         {
           "version": "1.0.67",
