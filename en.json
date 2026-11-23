@@ -790,5 +790,6 @@
   "颜色值": "Color value",
   "无效的颜色值": "Invalid color value",
   "此值是 CSS 变量/表达式——只读展示，不能在调色器里改。": "This value is a CSS variable/expression — shown read-only here; it cannot be edited in the color picker.",
-  "调色器操作": "Color picker action"
+  "调色器操作": "Color picker action",
+  "English": "English"
 }
