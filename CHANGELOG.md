@@ -1,5 +1,11 @@
 # 更新日志
 
+## v1.0.67（2026-11-24）
+
+- **i18n 收口**：命令/设置等 manifest 显示文本补齐英文；宿主按插件命名空间解析显示文本（市场/命令面板/菜单不再自己 t() 插件数据）。
+- **README 多语言**：新增 `docs/readme/en.md`，`plugin.json` 声明 `readme.locales`（zh→README.md，en→docs/readme/en.md）；共享图仍住 `resources/`。
+
+
 ## v1.0.66（2026-11-23）
 
 - **ColorPicker 2 新串 ＋7**：`色相` / `不透明度` / `颜色值` / `无效的颜色值` / 只读说明（CSS 变量/表达式）/ 命令标题 `调色器操作` / `应用名`。
