@@ -939,5 +939,6 @@
   "安装 / 卸载插件": "Install / uninstall plugins",
   "打开调试端口": "Open a debug port",
   "不在 AI 操作面": "Not exposed to the AI",
-  "其余操作（写文件 / 发数据等）": "Everything else (writing files / sending data, etc.)"
+  "其余操作（写文件 / 发数据等）": "Everything else (writing files / sending data, etc.)",
+  "只有你能改": "Only you can change this"
 }
