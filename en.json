@@ -791,5 +791,9 @@
   "无效的颜色值": "Invalid color value",
   "此值是 CSS 变量/表达式——只读展示，不能在调色器里改。": "This value is a CSS variable/expression — shown read-only here; it cannot be edited in the color picker.",
   "调色器操作": "Color picker action",
-  "English": "English"
+  "English": "English",
+  "对比度": "Contrast",
+  "标准": "Standard",
+  "高对比": "High contrast",
+  "对比度——标准 / 高对比；与明暗极性正交，主题未提供高对比配色时由系统派生": "Contrast — standard / high. Orthogonal to light/dark; derived by the system when the theme has no high-contrast colorway."
 }
