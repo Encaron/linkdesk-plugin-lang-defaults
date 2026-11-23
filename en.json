@@ -930,5 +930,14 @@
   "修改权限设置": "Change permission settings",
   "只有你能改；AI 连请求都没有入口": "Only you can change this; the AI has no request path at all",
   "请求提高 AI 权限（只是请求——用户在弹框里点「允许」才生效）": "Request higher AI permissions (a request only — it takes effect after the user clicks Allow)",
-  "升档必须由你点头；AI 没有自己批准的路": "Tier upgrades require your approval; the AI has no way to approve itself"
+  "升档必须由你点头；AI 没有自己批准的路": "Tier upgrades require your approval; the AI has no way to approve itself",
+  "每次询问": "Ask every time",
+  "允许": "Allow",
+  "这些规则由权限档位统一决定；它们不会绕过上面的权限档位。": "These rules are governed by the permission tier above; they do not bypass it.",
+  "由当前档位决定（{{label}}）": "Decided by the current tier ({{label}})",
+  "这张表暂时不可用，请关掉后重试": "This table is unavailable right now — close it and try again.",
+  "安装 / 卸载插件": "Install / uninstall plugins",
+  "打开调试端口": "Open a debug port",
+  "不在 AI 操作面": "Not exposed to the AI",
+  "其余操作（写文件 / 发数据等）": "Everything else (writing files / sending data, etc.)"
 }
