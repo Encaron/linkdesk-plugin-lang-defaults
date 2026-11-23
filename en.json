@@ -805,5 +805,11 @@
   "分区来源改回主题": "Domain Sources → Follow Theme",
   "颜色 / 玻璃 / 背景 / 字体的来源改回「跟随主题」；已调好的外观覆盖不受影响": "Color / glass / background / font sources go back to \"Follow Theme\"; your appearance overrides are unaffected.",
   "用主题样式重来": "Start from Theme Style",
-  "自定义": "Custom"
+  "自定义": "Custom",
+  "视图渲染出错，可以重试；反复出现请展开诊断信息反馈。": "The view failed to render. You can retry; if it keeps happening, expand the diagnostics and report them.",
+  "插件 id": "Plugin ID",
+  "错误消息": "Error message",
+  "发生时间": "Occurred at",
+  "诊断信息": "Diagnostics",
+  "插件可能未安装或被移除；在插件市场重新安装后重开此视图。": "The plugin may be uninstalled or removed. Reinstall it from the Plugin Store, then reopen this view."
 }
