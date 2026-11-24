@@ -309,5 +309,6 @@
   "执行操作": "执行操作",
   "官方目录的同源更新直接安装": "官方目录的同源更新直接安装",
   "已信任来源的同源更新直接安装": "已信任来源的同源更新直接安装",
-  "每行一个来源 id（市场「来源」里显示的那个名字）": "每行一个来源 id（市场「来源」里显示的那个名字）"
+  "每行一个来源 id（市场「来源」里显示的那个名字）": "每行一个来源 id（市场「来源」里显示的那个名字）",
+  "请用 linkdeskctl 命令行工具操作 LinkDesk——先运行「linkdeskctl --help」查看全部能力，再按说明调用。若返回 EPOLICYDENIED（权限不够），不要重试原动作：先运行「linkdeskctl request-elevation <目标档位> <理由>」请求提权，并提醒我回 LinkDesk 点「允许」；批准后再重试一次。": "请用 linkdeskctl 命令行工具操作 LinkDesk——先运行「linkdeskctl --help」查看全部能力，再按说明调用。若返回 EPOLICYDENIED（权限不够），不要重试原动作：先运行「linkdeskctl request-elevation <目标档位> <理由>」请求提权，并提醒我回 LinkDesk 点「允许」；批准后再重试一次。"
 }
