@@ -1,30 +1,35 @@
 {
   "version": "1",
-  "updatedAt": "2026-11-23T22:34:40.702Z",
+  "updatedAt": "2026-11-24T10:43:48.181Z",
   "plugins": [
     {
       "id": "lang-defaults",
       "name": "官方语言",
-      "version": "1.0.76",
+      "version": "1.0.77",
       "description": "出厂中文/English 语言包——可卸载，卸载后 t(key) 返回 key 原文",
       "author": {
         "name": "Encaron"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.76/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.77/resources/icon.svg",
       "iconSource": "url",
       "category": "development",
       "categories": [
         "i18n"
       ],
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.76/README.md",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.77/README.md",
       "readmeLocales": {
-        "zh": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.76/README.md",
-        "en": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.76/docs/readme/en.md"
+        "zh": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.77/README.md",
+        "en": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-lang-defaults/v1.0.77/docs/readme/en.md"
       },
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.76/lang-defaults.linkdesk-plugin",
-      "size": 37536,
-      "publishedAt": "2026-11-23T22:34:40.702Z",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.77/lang-defaults.linkdesk-plugin",
+      "size": 38981,
+      "publishedAt": "2026-11-24T10:43:48.181Z",
       "versions": [
+        {
+          "version": "1.0.77",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.77/lang-defaults.linkdesk-plugin",
+          "publishedAt": "2026-11-24T10:43:48.181Z"
+        },
         {
           "version": "1.0.76",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.76/lang-defaults.linkdesk-plugin",
@@ -52,8 +57,7 @@
         {
           "version": "1.0.72",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-lang-defaults/releases/download/v1.0.72/lang-defaults.linkdesk-plugin",
-          "publishedAt": "2026-11-23T20:52:32.601Z",
-          "changelog": "- 新增词条：`自定义`（外观模式下拉短标签）。"
+          "publishedAt": "2026-11-23T20:52:32.601Z"
         },
         {
           "version": "1.0.71",
