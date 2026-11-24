@@ -987,5 +987,16 @@
   "仅支持 HTTPS 目录源": "Only HTTPS catalog sources are supported",
   "当前壳不支持读取市场目录（需更新 LinkDesk）": "This host cannot read market catalogs (update LinkDesk)",
   "市场源": "Market sources",
-  "已登记的市场目录源（每行一条 id）。命令 plugins.addSource 写入；浏览面读它决定去哪找插件": "Registered market catalog sources (one id per line). Written by the plugins.addSource command; browsing surfaces read it to decide where to look."
+  "已登记的市场目录源（每行一条 id）。命令 plugins.addSource 写入；浏览面读它决定去哪找插件": "Registered market catalog sources (one id per line). Written by the plugins.addSource command; browsing surfaces read it to decide where to look.",
+  "打开标签": "Open tabs",
+  "写入文件": "Write files",
+  "安装与更新": "Install & update",
+  "修改工作区文件": "Edit workspace files",
+  "修改你项目中的文件": "Change files in your project",
+  "仅限你本人操作": "You only",
+  "始终需要你确认": "Always asks you",
+  "权限设置": "Permission settings",
+  "不在 AI 可调用范围内": "Not callable by the AI",
+  "其他操作": "Everything else",
+  "由当前档位决定": "Follows the current tier"
 }
