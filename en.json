@@ -1009,5 +1009,13 @@
   "插件 = 陌生代码，装上就会运行": "Plugins are unfamiliar code that runs once installed",
   "应用无响应": "Application Not Responding",
   "工作区外写入确认": "Confirm write outside workspace",
-  "选择图片": "Select image"
+  "选择图片": "Select image",
+  "允许后，AI 的所有操作都不再询问，直到你在设置里改回来。": "The AI will no longer ask before any action until you change it back in Settings.",
+  "允许后，AI 可以自己完成日常修改；装更新、删数据这类操作仍会先问你。": "The AI can handle everyday edits on its own; installing updates, deleting data and similar actions will still ask you first.",
+  "允许后，AI 会在每一步修改前先问你。": "The AI will ask you before every change.",
+  "AI 想从「{{current}}」升到「{{target}}」。\n原因：{{reason}}\n\n{{grant}}\n这个设置会一直有效，直到你在设置里改回来。": "The AI wants to raise permissions from \"{{current}}\" to \"{{target}}\".\nReason: {{reason}}\n\n{{grant}}\nThis setting stays in effect until you change it back in Settings.",
+  "提高权限": "Request more permissions",
+  "确认开启完全访问": "Confirm full access",
+  "确认后 AI 的所有操作都不再询问，直到你在设置里改回来。确定开启吗？": "After confirming, the AI will no longer ask before any action until you change it back in Settings. Turn it on?",
+  "AI 请求{{what}}：\n{{subject}}\n\n允许吗？（不点 = 不执行）": "AI requests {{what}}:\n{{subject}}\n\nAllow? (No response means it will not run)"
 }
