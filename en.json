@@ -1066,5 +1066,7 @@
   "当前 LinkDesk 版本过旧，请更新后再安装插件": "This LinkDesk version is too old — update LinkDesk before installing plugins",
   "目录里没有这个插件的信息，请刷新目录后重试": "This plugin is not in the catalog — refresh the catalog and try again",
   "该插件缺少目录条目，无法发起更新": "This plugin has no catalog entry — cannot start the update",
-  "请用 linkdeskctl 命令行工具操作 LinkDesk——先运行「linkdeskctl --help」查看全部能力，再按说明调用。若返回 EPOLICYDENIED（权限不够），不要重试原动作：先运行「linkdeskctl request-elevation <目标档位> <理由>」请求提权，并提醒我回 LinkDesk 点「允许」；批准后再重试一次。": "Use the linkdeskctl command-line tool to operate LinkDesk — first run “linkdeskctl --help” to see all capabilities, then follow the instructions. If it returns EPOLICYDENIED (insufficient permission), do not retry the original action: first run “linkdeskctl request-elevation <target mode> <reason>” to request elevation, and remind me to click Allow in LinkDesk; retry once after approval."
+  "请用 linkdeskctl 命令行工具操作 LinkDesk——先运行「linkdeskctl --help」查看全部能力，再按说明调用。若返回 EPOLICYDENIED（权限不够），不要重试原动作：先运行「linkdeskctl request-elevation <目标档位> <理由>」请求提权，并提醒我回 LinkDesk 点「允许」；批准后再重试一次。": "Use the linkdeskctl command-line tool to operate LinkDesk — first run “linkdeskctl --help” to see all capabilities, then follow the instructions. If it returns EPOLICYDENIED (insufficient permission), do not retry the original action: first run “linkdeskctl request-elevation <target mode> <reason>” to request elevation, and remind me to click Allow in LinkDesk; retry once after approval.",
+  "查异步命令相位": "Check async command phase",
+  "只读 op 状态，不改任何东西": "Read-only op status; changes nothing"
 }
