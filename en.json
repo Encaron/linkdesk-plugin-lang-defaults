@@ -998,5 +998,16 @@
   "权限设置": "Permission settings",
   "不在 AI 可调用范围内": "Not callable by the AI",
   "其他操作": "Everything else",
-  "由当前档位决定": "Follows the current tier"
+  "由当前档位决定": "Follows the current tier",
+  "读取 AI 权限档位": "Read AI permission mode",
+  "只看当前档位与风险表": "View only the current mode and risk table",
+  "只读表格": "Read-only table",
+  "改的就是门本身——只许用户操作": "Changes the gate itself — user-only",
+  "恢复默认权限": "Restore default permissions",
+  "处理主软件更新（有新版本会先下载，下载完重启并安装）": "Apply LinkDesk update (downloads a new version first, then restarts and installs)",
+  "装更新 = 换掉正在跑的程序本体，不可回退": "Updating replaces the running program — cannot be undone",
+  "插件 = 陌生代码，装上就会运行": "Plugins are unfamiliar code that runs once installed",
+  "应用无响应": "Application Not Responding",
+  "工作区外写入确认": "Confirm write outside workspace",
+  "选择图片": "Select image"
 }
